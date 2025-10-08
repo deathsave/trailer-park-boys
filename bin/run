@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+# temporary solution to use dev config
+# and smart vitual platform
+#CMD="mpf both -Xtav -c development"
+
+if [[ "$OSTYPE" == "darwin"* ]]; then
+  echo "Booting MPF using production_macos config."
+  mpf both -vVt -c production_macos
+else
+  echo "Linux detected. Disabling screen blanking."
+  xset -dpms
+  xset s noblank
+  xset s off
+
+  echo "Booting MPF using production_linux config."
+  CMD="source ~/.bash_profile && mpf both -v -c production_linux"
+  xterm -hold -e "cd ~/grand-prix && bash -c '$CMD'"
+fi
