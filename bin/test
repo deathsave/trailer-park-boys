@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if ! [ -z "$CI" ]; then
+  # don't run verbose tests in CI
+  CMD="python -m unittest "
+else
+  CMD="python -m unittest -v"
+fi
+
+if [ -z "$1" ]; then
+  $CMD tests/**/test_*.py
+else
+  $CMD $1
+fi

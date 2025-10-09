@@ -2,4 +2,4 @@
 
 config:
 - common.yaml
-- production/linux.yaml
+- development/virtual_platform.yaml

@@ -1,0 +1,6 @@
+#config_version=6
+
+config:
+#- common/foo.yaml
+#- common/bar.yaml
+#- common/baz.yaml

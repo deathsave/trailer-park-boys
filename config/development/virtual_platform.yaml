@@ -1,0 +1,26 @@
+#config_version=6
+
+hardware:
+  platform: smart_virtual
+
+window:
+  title: Trailer Park Boys
+  width: 1920
+  height: 1080
+  maxfps: 30
+  show_cursor: false
+  fullscreen: false
+
+switches:
+  # just for testing, but needs a number
+  # update per hardware platform
+  # s_activate_playfield:
+  #   number: 0-2-0
+  #   tags:
+  #   - playfield_active
+
+# So a dev/test game starts with 3 balls in the trough
+virtual_platform_start_active_switches:
+- s_trough1
+- s_trough2
+- s_trough3
