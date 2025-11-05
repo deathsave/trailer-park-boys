@@ -5,10 +5,10 @@ hardware:
 
 window:
   title: Trailer Park Boys
-  width: 1920
-  height: 1080
+  width: 960
+  height: 540
   maxfps: 30
-  show_cursor: false
+  show_cursor: true
   fullscreen: false
 
 switches:

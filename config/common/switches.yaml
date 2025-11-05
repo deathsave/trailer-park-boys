@@ -1,0 +1,15 @@
+#config_version=6
+
+switches:
+  s_start:
+    number: 0-0
+  s_shooter_lane:
+    number: 0-1
+  s_trough1:
+    number: 0-2
+  s_trough2:
+    number: 0-3
+  s_trough3:
+    number: 0-4
+  s_trough_jam:
+    number: 0-5

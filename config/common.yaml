@@ -1,6 +1,10 @@
 #config_version=6
 
 config:
+- common/switches.yaml
+- common/playfields.yaml
+- common/ball_devices.yaml
+- common/coils.yaml
 #- common/foo.yaml
 #- common/bar.yaml
 #- common/baz.yaml
