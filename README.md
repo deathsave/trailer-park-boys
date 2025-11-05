@@ -4,6 +4,8 @@ Trailer Park Boys
 This is the codebase for a future pinball homebrew project based on the
 Canadian TV Series "Trailer Park Boys".
 
+![Mock Playfield](https://github.com/deathsave/trailer-park-boys/blob/main/monitor/playfield.jpg?raw=true)
+
 ### Setup for MacOS
 
 See the [MacOS Setup Guide](https://github.com/deathsave/combat/blob/main/README.md#installing-mpf)
